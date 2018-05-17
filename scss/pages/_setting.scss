@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "../components/_panel";
+.list{
+    >li{
+        &.dense{
+            &:not(:last-child){
+                margin-bottom: 0;
+                border-bottom: none;
+            }
+            .btn-min{
+                padding: 10rem*$base 22rem*$base;
+            }
+        }
+        .item-icon{
+            margin-right: $pd-y*1.5;
+            .icon{
+                font-size: 30px;
+                vertical-align: -10px;
+            }
+        }
+    }
+}

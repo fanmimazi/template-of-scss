@@ -1,0 +1,32 @@
+@charset "utf-8";
+.tabbar {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 0;
+    background-color: #fff;
+    border-top: 1px solid $lineColor;
+    z-index: 999;
+    >li {
+        flex: 1;
+    }
+}
+
+.tabbar-item {
+    text-align: center;
+    color: $textColorLighten;
+    a {
+        display: block;
+    }
+    .icon {
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    &.active {
+        color: $colorPrimary;
+    }
+}

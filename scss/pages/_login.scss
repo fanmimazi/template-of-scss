@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.page-bd__login{
+    height: 100%;
+    background: url(../img/cover.png) center;
+    background-size: cover;
+}
+
+.position-wrap{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 80%;
+}
+.login-tips{
+    color: #fff;
+    margin-bottom: 8px;
+    a{
+        $color:#fcff00;
+        color: $color;
+        text-decoration:$color solid underline;
+        padding: 2px;
+    }
+}
+.login-btn{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10rem*$base 0;
+    width: 9.5rem;
+    border-radius: 50px;
+    .icon{
+        color: #00bc0d;
+        font-size: 20px;
+        margin-right: 6px;
+        vertical-align: -1px;
+    }
+}

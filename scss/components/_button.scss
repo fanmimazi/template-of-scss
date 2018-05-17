@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.btn{
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    &.btn-min{
+        padding: 8rem*$base 22rem*$base;
+        border-radius: 40px;
+    }
+    &.btn-primary{
+        background-color: $colorPrimary;
+        color: #fff;
+    }
+    &.btn-gray{
+        background-color: $bgColorGray;
+        color: #fff;
+    }
+}

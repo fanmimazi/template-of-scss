@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "../components/_panel";
+.page-bd__detail{
+    padding-top: $pd-y;
+}
+.list-item__detail{
+    .section:nth-child(1){
+        flex: 1;
+    }
+    // >a{
+    //     display: flex;
+    //     align-items: center;
+    //     width: 100% 
+    // }
+    .icon{
+        font-size: 40px;
+    }
+    .icon-down{
+        color:$textColorWarn;
+    }
+    .icon-up{
+        color:$colorPrimary;
+    }
+}
+

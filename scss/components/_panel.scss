@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+$pd-x:40rem*$base;
+$pd-y:24rem*$base;
+.panel-bd{
+    position: relative;
+    background-color: #fff;
+    padding: $pd-y $pd-x; 
+    border-top: 1px solid $lineColorLighten;
+    border-bottom: 1px solid $lineColorLighten;
+}

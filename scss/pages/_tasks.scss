@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@import "../components/_panel";
+.list{
+    >li{
+        .button{
+            margin-left: $pd-y;
+        }
+        .link{
+            display:block;
+            padding: 0.5rem  $pd-x;
+            margin-right: -$pd-x;
+            .icon{
+                font-size: 18px;
+            }
+        }
+    }
+}

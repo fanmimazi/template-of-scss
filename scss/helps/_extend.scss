@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// 字体超出显示为省略号 text-overflow
+%to {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// 清除浮动
+%clearfix{
+    zoom:1;
+    &:after{
+        content:'';
+        display: block;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+// 页面遮罩
+%pagecover{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background:rgba(0,0,0,0.3);
+}
+// 显示两行 ，超出省略号
+%twoline {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
